@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+void afisare(nod * p)
+{
+    nod * prim=p;
+    while(prim!=NULL)
+    {
+        std::cout<<prim->info<<" ";
+        prim=prim->urm;
+    }
+}
